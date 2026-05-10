@@ -166,7 +166,7 @@ CREATE TABLE GanadoreSorteo (
     REFERENCES fechaasistencia (idfechaAsitencia)
 );
 ######################################### CONSULTAS ##############################
-drop table ganadoresorteo;
+-- drop table ganadoresorteo;
 ##################### APRENDICES ############
 select *  from aprendiz;
 ##################### USUARIOS (instructores) ###############
